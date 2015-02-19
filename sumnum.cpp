@@ -5,18 +5,17 @@ using namespace std;
 
 int main()
 {
-	int l,u,x=1;
+	int l,h,x=0,i;
 	cout<<"Dame el numero mas bajo a sumar"<<endl;
 	cin>>l;
 	cout<<"Dame el numero mas alto a sumar"<<endl;
-	cin>>u;
+	cin>>h;
 
-	while(l!=u)
+	for(i==l;i<h;i++)
 	{
-		l++;
-		x=x+y;
+		x=x+i;
 	}
-	
-	cout<<"El resultado de la suma del "<<l<<" al "<<u<<" es de: "<<x<<endl;
+
+	cout<<"El resultado de la suma del "<<l<<" al "<<h<<" es de: "<<x<<endl;
 	return 0;
 }
