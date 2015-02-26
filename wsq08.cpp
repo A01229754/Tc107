@@ -8,7 +8,7 @@ int main()//the main code
 	cin>>a;
 	cout<<"Dame un segundo numero a introducir: ";
 	cin>>b;
-	suma=a+b;
+	suma=a+b;//se utiliza una funcion para poder hacer la operacion
 	resta=a-b;
 	division=a/b;
 	residuo=a%b;
